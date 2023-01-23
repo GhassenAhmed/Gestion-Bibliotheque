@@ -44,7 +44,25 @@ public class Bibliotheque {
 	 }
 	
 	//suppression
-	 
+	  boolean supprimer(Document doc) 
+	 {
+		 int i,j;
+		 for (i=0;i<nombre;i++)
+		 {
+			 if(tabdoc[i].getnumEnreg()==doc.getnumEnreg())
+			 {
+				 for(j=i;j<nombre;j++)
+				 {
+					 tabdoc[j]=tabdoc[j+1];
+					 
+				 }
+				 nombre --;
+				 return true;
+			 }
+		 }
+		 return false;
+	 }
+	
 	
 		
 	//affichage auteur
