@@ -13,7 +13,11 @@ public class Bibliotheque {
 	}
 	
 	//affiche
-	
+	 void afficherDocument() {
+		for(int i =0;i<nombre;i++) {
+			System.out.println(tabdoc[i]);
+		}
+	}
 	
 	//document
 	 Document document(int i) {
