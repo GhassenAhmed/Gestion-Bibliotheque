@@ -20,13 +20,7 @@ public class Bibliotheque {
 	}
 	
 	//document
-	 Document document(int i) {
-		
-			return tabdoc[i];
-
-		
-		
-	}
+	
 	
 	//ajout
 	 boolean ajouter(Document doc){
