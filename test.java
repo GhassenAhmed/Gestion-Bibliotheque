@@ -19,7 +19,14 @@ public class test {
 	public int getpoids() {
 		return poids;
 	}
-	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		test t=new test(6);
+		test v=new test(7);
+		System.out.println(test.egale(t, v)); 
+		System.out.println(t.equals(v));
+	}
 	
 	
 }
